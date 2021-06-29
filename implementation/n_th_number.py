@@ -1,3 +1,4 @@
+# N번째 수
 
 # 내 풀이법
 # n , k  = map(int, input().split())
