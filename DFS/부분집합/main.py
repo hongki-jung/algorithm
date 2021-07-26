@@ -14,7 +14,7 @@ def DFS(v):
 
   else:
     ch[v]=1
-    DFS(v+1)  
+    DFS(v+1)
     ch[v]=0
     DFS(v+1)
 

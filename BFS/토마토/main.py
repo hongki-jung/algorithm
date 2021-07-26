@@ -27,11 +27,11 @@ while dQ:
       # print(yy)
       if 0<= xx < m and 0<= yy <n :
         if board[xx][yy] == 0:
-          cnt+=1
+         
           dis[xx][yy]= dis[tmp[0]][tmp[1]] +1
           board[xx][yy] = 1
           dQ.append((xx, yy))
-# print(cnt)
+print(cnt)
 
 flag =1
 for i in range(m):
