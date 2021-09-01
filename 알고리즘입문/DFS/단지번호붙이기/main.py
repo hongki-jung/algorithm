@@ -26,8 +26,9 @@ if __name__== "__main__":
   for i in range(n):
     for j in range(n):
       if board[i][j]==1:
-        cnt=0  # 새로 단지가 발견될 때마다 cnt를 0으로 초기화
-        DFS(i, j)
+        cnt=0 # 새로 단지가 발견될 때마다 cnt를 0으로 초기화
+        DFS(i, j) 
         res.append(cnt)
+  print("board ",board)
   res.sort()
   print(res)
